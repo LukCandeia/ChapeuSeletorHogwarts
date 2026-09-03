@@ -17,6 +17,15 @@ public class Aluno {
         this.casa = casa;
     }
 
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + this.nome);
+        System.out.println("idade: " + this.idade);
+        System.out.println("Coragem: " + this.coragem);
+        System.out.println("Inteligência: " + this.inteligencia);
+        System.out.println("Ambição: " + this.ambicao);
+        System.out.println("Lealdade: " + this.lealdade);
+    }
+
     public String getNome() {
         return nome;
     }
