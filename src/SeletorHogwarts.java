@@ -50,6 +50,5 @@ public class SeletorHogwarts {
         System.out.println("\"Ah, mas vejo um potencial extraordinário aqui... Onde será que você vai brilhar mais?\"");
         TimeUnit.SECONDS.sleep(2);
         System.out.println(bruxo1.getCasa());
-
     }
 }
