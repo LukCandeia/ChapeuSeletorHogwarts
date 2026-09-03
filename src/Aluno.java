@@ -26,7 +26,7 @@ public class Aluno {
     }
 
     public void exibirInformacoes() {
-        System.out.println("Nome: " + this.nome);
+        System.out.println("Bruxo: " + this.nome);
         System.out.println("idade: " + this.idade);
         System.out.println("Coragem: " + this.coragem);
         System.out.println("Inteligência: " + this.inteligencia);
@@ -42,8 +42,7 @@ public class Aluno {
     // • Lufa-Lufa: ((2 ∗ leadade) + (coragem))/3
     public String calcularCasa() {
         casaspossiveis = new String[] { "Grifnoria", "Sonserina", "Corvinal", "Lufa-Lufa" };
-        pontuacoes = new double[] { ((2 * this.coragem) + this.lealdade), ((2 * this.ambicao) + this.estrategia),
-                ((2 * inteligencia) + this.criatividade), (((2 * this.lealdade) + this.coragem) / 3) };
+        pontuacoes = new double[] { ((2 * this.coragem) + this.lealdade), ((2 * this.ambicao) + this.estrategia), ((2 * inteligencia) + this.criatividade), (((2 * this.lealdade) + this.coragem) / 3) };
         int maiorindice = 0;
         for (int i = 0; i < pontuacoes.length; i++) {
             if (pontuacoes[i] > pontuacoes[maiorindice]) {
