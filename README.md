@@ -44,34 +44,11 @@ O método `calcularCasa()` avalia os atributos do aluno utilizando fórmulas pon
 3. Compile as classes executando:
    ```bash
    javac Aluno.java SeletorHogwarts.java
-Execute o programa:
 
-Bash
-java SeletorHogwarts
-💻 Demonstração no Terminal
-Plaintext
-Hmm... Uma mente nova. Seja bem-vindo(a) a Hogwarts!
-Relaxe e deixe-me dar uma boa olhada em seu coração.
-Antes de cruzar as grandes portas do Salão Principal,
-o Chapéu Seletor precisa desvendar a essência da sua alma.
-...
+---
 
-Qual o seu nome, jovem bruxo(a)?
-Harry Potter
-
-Qual a sua idade?
-11
-
-Qual o seu nível de coragem? (0 até 100)
-95
-...
-Hmm... Difícil. Muito difícil...
-
-Calculando as afinidades mágicas...
-Pesando as virtudes no fundo da sua mente...
-
-⚡ O Chapéu Seletor grita: GRIFINÓRIA! ⚡
 🛠️ Tecnologias Utilizadas
+
 Java (Conceitos de POO, Encapsulamento, Arrays e Manipulação de Objetos)
 
 java.util.Scanner (Captura de entradas de dados do usuário)
